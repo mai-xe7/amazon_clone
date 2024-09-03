@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>amazone clone</title>
+</head>
+<body>
+    <div class="container">
+        <header id="1">
+            <div class="basic">
+                <img class="logo" src="images/amazone.png">
+                <div class="location">
+                  <pre><i class="fa-solid fa-location-dot"> </i>Egypt</pre>
+                    <select name="country" id="country">
+                        <option value="egypt"selected>cairo</option>
+                        <option value="egypt">Alex</option>
+                        <option value="egypt">Beni Suef</option>
+                        <option value="egypt">Fayoum</option>
+                        <option value="egypt">Aswan</option>
+                        <option value="egypt">Sohag</option>
+                    </select> 
+                </div>
+                <div class="search">
+                    <select>
+                        <option value="All" selected>All</option>
+                        <option value="devices">devices</option>
+                        <option value="clothes">clothes</option>
+                        <option value="accessories">accessories</option>
+                        <option value="skincare">skin care</option>
+                        <option value="sportsmachines">sports machines</option>
+                        <option value="Books">Books</option>
+                        <option value="food">food</option>
+    
+                    </select>
+                    <input type="text" placeholder="        Search Amazon.eg">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+
+                </div>
+                <div class="user">
+                    <lable for="user">Account</lable>
+                    <i id="user" class="fa-solid fa-user"></i>
+                </div>
+                <div class="Pur">
+                    <lable for="Pur">Purchases</lable>
+                    <i class="fa-solid fa-cart-shopping"></i>
+    
+                </div>
+
+            </div>
+           <div class="sub-header">
+                <ul>
+                    <li>deals</li>
+                    <li>Mobile phones</li>
+                    <li>Electronics</li>
+                    <li>Application</li>
+                    <li>Fashion</li>
+                    <li>Video Games</li>
+                    <li>Home</li>
+                    <li>toys</li>
+                    <li>perfums</li>
+
+                </ul>
+            </div>
+        </header>
+        <!--------------------------------------Side Bar -------------------------------!-->
+        <aside>
+            <h3>operating system</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="IOS">IOS</li>
+                <li><input type="checkbox" value="and1">Android 10.0</li>
+                <li><input type="checkbox" value="Android">Android 11.0</li>
+                <li><input type="checkbox" value="Android">Android 12.0</li>
+                <li><input type="checkbox" value="Android">Android 13.0</li>
+                <li><input type="checkbox" value="sym">Symbain 9.1</li>
+
+
+            </ul>
+            <h3>screen size</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="size">Up to 3.9 in</li>
+                <li><input type="checkbox" value="size">4.5 to 4.9 in</li>
+                <li><input type="checkbox" value="size">5 to 5.4 in</li>
+                <li><input type="checkbox" value="size">5.5 in & above</li>
+            </ul>
+            <h3>memory storage capacity</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="size">Up to 3.9 GB</li>
+                <li><input type="checkbox" value="size">4 GB</li>
+                <li><input type="checkbox" value="size">8 GB</li>
+                <li><input type="checkbox" value="size">16 GB</li>
+                <li><input type="checkbox" value="size">32 GB</li>
+                <li><input type="checkbox" value="size">64 GB</li>
+                <li><input type="checkbox" value="size">128 GB</li>
+                <li><input type="checkbox" value="size">256 GB</li>
+                <li><input type="checkbox" value="size">1512 GB &above</li>
+            </ul>
+
+            <h3>Features</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="size">Bluetooth enabled</li>
+                <li><input type="checkbox" value="size">camera</li>
+                <li><input type="checkbox" value="size">GPS</li>
+                <li><input type="checkbox" value="size">Wi-Fi</li>
+                <li><input type="checkbox" value="size">Touchscreen</li>
+                <li><input type="checkbox" value="size">Fast Charging Support</li>
+            </ul>
+
+            <h3>Model Year</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="year">2024</li>
+                <li><input type="checkbox" value="year">2023</li>
+                <li><input type="checkbox" value="year">2022</li>
+                <li><input type="checkbox" value="year">2021</li>
+                <li><input type="checkbox" value="year">2020</li>
+                <li><input type="checkbox" value="year">2019</li>
+                <li><input type="checkbox" value="year">2018</li>
+
+            </ul>
+
+            <h3>Display Type</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="display">AMOLED</li>
+                <li><input type="checkbox" value="display">LCD</li>
+                <li><input type="checkbox" value="display">OLED</li>
+            </ul>
+
+            <h3>GPS</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="bool">False</li>
+                <li><input type="checkbox" value="bool">True</li>
+            </ul>
+            
+            <h3>SIM card</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="SIM">Single SIM</li>
+                <li><input type="checkbox" value="SIM"> Dual SIM</li>
+                <li><input type="checkbox" value="SIM">Quad SIM</li>
+            </ul>
+
+            <h3>Cellular Technology</h3>
+            <ul class="side-barList">
+                <li><input type="checkbox" value="techno">2G</li>
+                <li><input type="checkbox" value="techno"> 3G</li>
+                <li><input type="checkbox" value="techno">4G</li>
+                li><input type="checkbox" value="techno">5G</li>
+            </ul>
+
+
+
+        </aside>
+
+        <!--------------------------------------Main Content -------------------------------!-->
+
+        <main>
+         
+         <div class="item" id="item1">
+            <img src="images/phone1.jpg" alt="phone">
+            <p>Samsung Galaxy A55 5G, Android Smartphone, Dual SIM Mobile Phone, 8GB RAM, 256GB Storage, Awesome Navy - 1 year Warranty</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>
+            <p class="price">EGP6,649.00</p>
+        </div>
+
+         <div class="item" id="item2">
+            <img src="images/phone2.jpg" alt="phone">
+            <p>Samsung Galaxy A05 LTE, Android Smartphone, Dual SIM Mobile Phone, 4GB RAM, 128GB Storage, Black</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div> 
+            <p class="price">EGP 1,649.00</p>
+        </div>
+         
+         <div class="item" id="item3">
+            <img src="images/phone3.jpg" alt="phone">
+            <p>SAMSUNG Galaxy S24 Ultra, AI Android Smartphone, 256GB Storage, 12GB RAM, 200MP Camera, S Pen, Long Battery Life, Titanium Black - 1 year Local Warranty</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div> 
+            <p class="price">EGP 2,649.00</p>
+        </div>
+
+         <div class="item" id="item4">
+            <img src="images/phone4.jpg" alt="phone">
+            <p>Samsung Galaxy A15 Dual SIM 6GB Ram+128GB ROM (6.5 Inches) (4G LTE) - (Light Blue)</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>  <p class="price">EGP 8,649.00</p>
+        </div>
+
+         <div class="item" id="item5">
+            <img src="images/phone5.jpg" alt="phone">
+            <p>Nokia G21 Dual SIM 4GB Ram+128GB ROM (6.5 Inches) (4G) - (Dusk)</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>
+            <p class="price">EGP 3,649.00</p>
+        </div>
+
+         <div class="item" id="item6">
+            <img src="images/phone6.jpg" alt="phone">
+            <p>Samsung Galaxy A05 LTE, Android Smartphone, Dual SIM, 6GB RAM, 128GB Storage, Black - 1 year Warranty</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>
+            <p class="price">EGP 21,649.00</p>
+        </div>
+
+         <div class="item" id="item7">
+            <img src="images/phone7.jpg" alt="phone">
+            <p>Samsung Galaxy A05s, Android Smartphone, Dual SIM Mobile Phone, LTE, 6GB RAM, 128GB Storage, Black</p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div> 
+            <p class="price">EGP 7,649.00</p>
+        </div>
+
+         <div class="item" id="item8">
+            <img src="images/phone8.jpg" alt="phone">
+            <p>Xiaomi Redmi Note 12 Dual SIM Smartphone with 4GB RAM, 128GB ROM, 6.67-Inch Display, 4G LTE Connectivity, High-Resolution Camera, 
+                Efficient Performance, Onyx Gray Enhanced Mobile Experience
+            </p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>
+            <p class="price">EGP 6,457.00</p>
+         </div>
+
+         <div class="item" id="item9">
+            <img src="images/phone9.jpg" alt="phone">
+            <p>Redmi Note 13 (Midnight Black 8GB RAM, 256 Storage) - Super-clear 108MP triple camera |120Hz FHD+AMOLED display | 
+                Immersive viewing with ultra-thin bezels | Secure in-screen fingerprint sensor
+            </p>
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="text" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="text" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="text" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="text" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="text" for="star1"></label>
+            </div>
+            <p class="price">EGP 10,649.00</p>
+         </div>
+
+        </main>
+
+
+    <!----------------------------------------------------Footer ----------------------------------->    
+        
+        <footer>
+            <img class="logo2" src="images/amazone.png">
+            <div class="back">
+                <pre onclick="location.href='#1'">Back To Top</pre>
+            </div>
+
+            <ul class="first">
+                <h4> Get To Know Us</h4>
+                <li><a href="">About Amazone</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Amazon Science</a></li>
+            </ul>
+
+            <ul class="second-list">
+                <h4> Shop With Us</h4>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Your Addresses</a></li>
+                <li><a href="">Your Lists</a></li>
+            </ul>
+
+            <ul class="third-list">
+                <h4> Make Money With Us</h4>
+                <li><a href="">Sell on Amazon</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Protect And Build Your Brand</a></li>
+            </ul>
+
+            <ul class="third-list">
+                <h4> Let Us Help You</h4>
+                <li><a href="">Help</a></li>
+                <li><a href="">Amazon app download</a></li>
+                <li><a href="">Returns & Replacements</a></li>
+            </ul>
+        </footer>
+
+
+    
+    </div>
+    
+</body>
+</html>
